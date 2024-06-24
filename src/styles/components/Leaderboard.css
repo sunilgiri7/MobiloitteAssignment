@@ -1,0 +1,23 @@
+.leaderboard {
+  text-align: center;
+  padding: 2rem;
+  background: #1f1f1f;
+  color: white;
+}
+
+.leaderboard h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.leaderboard ul {
+  list-style: none;
+  padding: 0;
+}
+
+.leaderboard li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #333;
+}

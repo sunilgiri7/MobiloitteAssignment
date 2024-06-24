@@ -1,0 +1,24 @@
+.main-content {
+  padding: 2rem;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.additional-info {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.additional-info h2 {
+  font-size: 2rem;
+  color: white;
+}
+
+.additional-info p {
+  font-size: 1rem;
+  color: #ccc;
+}
