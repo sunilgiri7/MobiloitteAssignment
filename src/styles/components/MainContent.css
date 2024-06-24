@@ -1,24 +1,107 @@
 .main-content {
+  background-color: #121212;
   padding: 2rem;
+  color: #ffffff;
 }
 
 .features {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
 }
 
-.additional-info {
+.feature-card {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 1.5rem;
   text-align: center;
-  margin-top: 2rem;
+  position: relative;
+  overflow: hidden;
 }
 
-.additional-info h2 {
-  font-size: 2rem;
-  color: white;
+.feature-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background: linear-gradient(to top, #1e1e1e, transparent);
 }
 
-.additional-info p {
-  font-size: 1rem;
-  color: #ccc;
+.feature-card h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.feature-icon {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.feature-card p {
+  font-size: 0.9rem;
+  color: #a0a0a0;
+  position: relative;
+  z-index: 1;
+}
+
+.info-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.info-card {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 1.5rem;
+  position: relative;
+}
+
+.info-card h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.info-card p {
+  font-size: 0.9rem;
+  color: #a0a0a0;
+  margin-bottom: 1rem;
+}
+
+.learn-more {
+  color: #ff6b00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.bustatrx-logo {
+  width: 50px;
+  margin-bottom: 1rem;
+}
+
+.info-icon {
+  width: 50px;
+  margin-bottom: 1rem;
+}
+
+.how-it-works::before {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: #ff6b00;
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .features,
+  .info-section {
+    grid-template-columns: 1fr;
+  }
 }

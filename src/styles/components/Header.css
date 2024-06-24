@@ -1,91 +1,79 @@
 .header {
-  text-align: center;
   background: url("../../assets/sky.png") no-repeat center center;
   background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   padding: 2rem;
   color: white;
-  height: 891px;
-  width: 1680px;
-  mix-blend-mode: lighten;
 }
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .logo {
   width: 293px;
-  height: 80px;
-  top: 152px;
-  left: 695px;
-  gap: 0px;
-  opacity: 0px;
+  margin-bottom: 2rem;
 }
-.logo0 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+.original-game {
+  width: 100%;
+  max-width: 529px;
+  margin-bottom: 1rem;
 }
-.originalGame {
-  width: 529px;
-  height: 222px;
-  top: 274px;
-  left: 576px;
-  gap: 0px;
-  opacity: 0px;
-}
-.originalGame0 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.gameDate {
+
+.game-date {
   width: 268px;
-  height: 28px;
-  top: 511px;
-  left: 719px;
-  gap: 0px;
-  opacity: 0px;
-  align-items: center4;
-  color: #ffffff;
+  margin-bottom: 2rem;
 }
-.gameDate0 {
+
+.play-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.play-btn:hover {
+  transform: scale(1.05);
+}
+
+.play-btn img {
+  width: 100%;
+  max-width: 456px;
+}
+
+.stats-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 2rem;
 }
-.playBtn {
-  width: 456px;
-  height: 60px;
-  top: 587px;
-  left: 615px;
-  padding: 12px 0px 12px 0px;
-  gap: 10px;
-  border-radius: 10px 0px 0px 0px;
-  opacity: 0px;
+
+.stat-item {
+  text-align: center;
+  margin-top: 2rem;
 }
-.playBtn {
-  /* display: flex; */
-  align-items: center;
-  justify-content: center;
+
+.stat-item img {
+  width: 80px;
+  margin-bottom: 0.5rem;
 }
-.house {
-  width: 117px;
-  height: 108px;
-  top: 732px;
-  left: 371px;
-  gap: 0px;
-  opacity: 0px;
-  display: inline;
-}
-.wagered {
-  width: 136px;
-  height: 108px;
-  top: 732px;
-  left: 769px;
-  gap: 0px;
-  opacity: 0px;
-}
-.bankroll {
-  width: 101px;
-  height: 108px;
-  top: 732px;
-  left: 1207px;
-  gap: 0px;
-  opacity: 0px;
+
+@media (max-width: 768px) {
+  .stats-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stat-item {
+    margin-bottom: 1.5rem;
+  }
 }
