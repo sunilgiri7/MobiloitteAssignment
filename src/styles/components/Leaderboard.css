@@ -1,23 +1,139 @@
-.leaderboard {
-  text-align: center;
-  padding: 2rem;
-  background: #1f1f1f;
+.leaderboard-container {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.featured-card {
+  background-image: url("src/assets/winnerBanner.png");
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  width: 1150px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.winner-cup {
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.card-content {
   color: white;
 }
 
-.leaderboard h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+.card-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
-.leaderboard ul {
-  list-style: none;
-  padding: 0;
+.bustatrx-logo {
+  width: 30px;
+  height: auto;
+  margin-bottom: 10px;
 }
 
-.leaderboard li {
+.card-content p {
+  font-size: 14px;
+  max-width: 600px;
+}
+
+.leaderboard-table {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table-header {
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
-  border-bottom: 1px solid #333;
+  padding: 15px 20px;
+  background-color: #2a2a2a;
+  color: #888;
+  font-size: 14px;
+}
+
+.table-row {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.rank-badge {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.rank-badge:nth-child(1) {
+  background-color: #ffd700;
+}
+.rank-badge:nth-child(2) {
+  background-color: #c0c0c0;
+}
+.rank-badge:nth-child(3) {
+  background-color: #cd7f32;
+}
+.rank-badge:nth-child(4) {
+  background-color: #4b0082;
+}
+.rank-badge:nth-child(5) {
+  background-color: #006400;
+}
+
+.player-name {
+  flex-grow: 1;
+  color: #00ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-profit {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.coin-icon {
+  width: 20px;
+  height: auto;
+  margin-right: 5px;
+}
+.player {
+  margin-left: 47%;
+}
+.learnMore {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50vh; /* Make sure the container takes the full height of the viewport */
+}
+
+.learnMore h1 {
+  margin: 0;
+}
+
+.learnMore p {
+  margin: 10px 0;
+}
+
+.learnMore img {
+  margin-top: 20px;
+  width: auto;
+  height: auto;
+  max-width: 100%;
 }

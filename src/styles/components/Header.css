@@ -1,12 +1,12 @@
 .header {
   background: url("../../assets/sky.png") no-repeat center center;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
+  padding: 4rem;
   color: white;
 }
 
@@ -18,7 +18,8 @@
 }
 
 .logo {
-  width: 293px;
+  width: 400px; /* Adjust the width to make it larger */
+  height: auto; /* Maintain aspect ratio */
   margin-bottom: 2rem;
 }
 
@@ -54,7 +55,6 @@
   justify-content: space-around;
   width: 100%;
   max-width: 1200px;
-  margin-top: 2rem;
 }
 
 .stat-item {
@@ -66,8 +66,12 @@
   width: 80px;
   margin-bottom: 0.5rem;
 }
-.bankroll{
-  margin-top: 5px;
+.bankroll {
+  margin-top: 4px;
+  height: 65px;
+}
+.house {
+  margin-top: 2px;
   height: 65px;
 }
 
@@ -79,5 +83,8 @@
 
   .stat-item {
     margin-bottom: 1.5rem;
+  }
+  .logo {
+    width: 80%; /* Adjust this value for a responsive logo size on smaller screens */
   }
 }

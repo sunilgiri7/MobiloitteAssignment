@@ -6,30 +6,38 @@ import sinceDateImg from "../assets/Group 1171277254.png";
 import playBtnImg from "../assets/Frame 9.png";
 import houseImg from "../assets/house.png";
 import wageredImg from "../assets/wagered.png";
-import bankrollImg from "../assets/bankroll2.png"
+import bankrollImg from "../assets/bankroll2.png";
 
 const Header = () => {
   return (
     <header className="header">
       <div className="header-content">
         <img src={logoImg} alt="Bustatrx Logo" className="logo" />
-        <img src={originalImg} alt="The Original Crash Game" className="original-game" />
-        <img src={sinceDateImg} alt="TRX Gambling Since 2014" className="game-date" />
+        <img
+          src={originalImg}
+          alt="The Original Crash Game"
+          className="original-game"
+        />
+        <img
+          src={sinceDateImg}
+          alt="TRX Gambling Since 2014"
+          className="game-date"
+        />
         <button className="play-btn">
           <img src={playBtnImg} alt="Play Now" />
         </button>
       </div>
       <div className="stats-container">
         <div className="stat-item">
-          <img src={houseImg} alt="House Edge" />
+          <img src={houseImg} alt="House Edge" className="house" />
           {/* <p>HOUSE EDGE</p> */}
           {/* <p className="stat-value">1%</p> */}
         </div>
-        <div className="stat-item"> 
+        <div className="stat-item">
           <img src={wageredImg} alt="Wagered" />
           {/* <p>WAGERED</p> */}
           {/* <p className="stat-value">2,200,000</p> */}
-        </div>  
+        </div>
         <div className="stat-item">
           <img src={bankrollImg} alt="Bankroll" className="bankroll" />
           {/* <p>BANKROLL</p> */}
