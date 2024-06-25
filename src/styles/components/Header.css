@@ -66,6 +66,10 @@
   width: 80px;
   margin-bottom: 0.5rem;
 }
+.bankroll{
+  margin-top: 5px;
+  height: 65px;
+}
 
 @media (max-width: 768px) {
   .stats-container {

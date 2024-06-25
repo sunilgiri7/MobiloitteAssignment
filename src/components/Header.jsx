@@ -6,7 +6,7 @@ import sinceDateImg from "../assets/Group 1171277254.png";
 import playBtnImg from "../assets/Frame 9.png";
 import houseImg from "../assets/house.png";
 import wageredImg from "../assets/wagered.png";
-import bankrollImg from "../assets/bankroll.png";
+import bankrollImg from "../assets/bankroll2.png"
 
 const Header = () => {
   return (
@@ -25,13 +25,13 @@ const Header = () => {
           {/* <p>HOUSE EDGE</p> */}
           {/* <p className="stat-value">1%</p> */}
         </div>
-        <div className="stat-item">
+        <div className="stat-item"> 
           <img src={wageredImg} alt="Wagered" />
           {/* <p>WAGERED</p> */}
           {/* <p className="stat-value">2,200,000</p> */}
-        </div>
+        </div>  
         <div className="stat-item">
-          <img src={bankrollImg} alt="Bankroll" />
+          <img src={bankrollImg} alt="Bankroll" className="bankroll" />
           {/* <p>BANKROLL</p> */}
           {/* <p className="stat-value">1,900</p> */}
         </div>

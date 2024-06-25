@@ -7,17 +7,17 @@ const MainContent = () => {
       <section className="features">
         <div className="feature-card">
           <h2>SOCIAL & REAL TIME</h2>
-          <img src="path/to/social-real-time-icon.png" alt="Social & Real Time" className="feature-icon" />
+          <img src="src\assets\social.png" alt="Social & Real Time" className="feature-icon" />
           <p>Lorem Ipsum Is A Placeholder Text Commonly Used To Demonstrate The Visual Form Of A Document Or A Typeface Without Relying On Meaningful Content.</p>
         </div>
         <div className="feature-card">
           <h2>PROVABLY FAIR</h2>
-          <img src="path/to/provably-fair-icon.png" alt="Provably Fair" className="feature-icon" />
+          <img src="src\assets\provably1.png" alt="Provably Fair" className="feature-icon" />
           <p>Lorem Ipsum Is A Placeholder Text Commonly Used To Demonstrate The Visual Form Of A Document Or A Typeface Without Relying On Meaningful Content.</p>
         </div>
         <div className="feature-card">
           <h2>BE THE BANKROLL</h2>
-          <img src="path/to/be-the-bankroll-icon.png" alt="Be The Bankroll" className="feature-icon" />
+          <img src="src\assets\bankroll.png" alt="Be The Bankroll" className="feature-icon" />
           <p>Lorem Ipsum Is A Placeholder Text Commonly Used To Demonstrate The Visual Form Of A Document Or A Typeface Without Relying On Meaningful Content.</p>
         </div>
       </section>
