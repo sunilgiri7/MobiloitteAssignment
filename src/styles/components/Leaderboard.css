@@ -1,3 +1,5 @@
+/* Leaderboard.css */
+
 .leaderboard-container {
   font-family: Arial, sans-serif;
   max-width: 1200px;
@@ -9,7 +11,8 @@
   background-size: cover;
   background-position: center;
   height: 180px;
-  width: 1150px;
+  width: 95%; /* Adjusted to full width for responsiveness */
+  max-width: 1150px; /* Maximum width to maintain card size */
   display: flex;
   align-items: center;
   padding: 0 20px;
@@ -111,16 +114,18 @@
   height: auto;
   margin-right: 5px;
 }
+
 .player {
   margin-left: 47%;
 }
+
 .learnMore {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 50vh; /* Make sure the container takes the full height of the viewport */
+  padding: 2rem 0; /* Added padding for better spacing */
 }
 
 .learnMore h1 {
@@ -136,4 +141,29 @@
   width: auto;
   height: auto;
   max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .featured-card {
+    height: auto; /* Adjust height to auto for smaller screens */
+  }
+
+  .card-content h2 {
+    font-size: 20px; /* Decrease font size for smaller screens */
+  }
+
+  .bustatrx-logo {
+    width: 20px; /* Decrease logo size for smaller screens */
+  }
+
+  .rank-badge {
+    width: 25px;
+    height: 25px;
+    font-size: 12px; /* Adjust badge size and font size for smaller screens */
+    margin-right: 10px;
+  }
+
+  .player {
+    margin-left: 40%; /* Adjust margin for player name on smaller screens */
+  }
 }

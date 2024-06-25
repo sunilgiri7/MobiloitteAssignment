@@ -19,13 +19,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 500px;
+  height: 450px;
   width: 320px;
 }
 
 .feature-card h2 {
   font-size: 1.2rem;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .feature-icon {

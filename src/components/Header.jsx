@@ -30,18 +30,12 @@ const Header = () => {
       <div className="stats-container">
         <div className="stat-item">
           <img src={houseImg} alt="House Edge" className="house" />
-          {/* <p>HOUSE EDGE</p> */}
-          {/* <p className="stat-value">1%</p> */}
         </div>
         <div className="stat-item">
           <img src={wageredImg} alt="Wagered" />
-          {/* <p>WAGERED</p> */}
-          {/* <p className="stat-value">2,200,000</p> */}
         </div>
         <div className="stat-item">
           <img src={bankrollImg} alt="Bankroll" className="bankroll" />
-          {/* <p>BANKROLL</p> */}
-          {/* <p className="stat-value">1,900</p> */}
         </div>
       </div>
     </header>
