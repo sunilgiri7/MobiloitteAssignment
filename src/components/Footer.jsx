@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="logo-container">
-          <img src={bustatrxLogo} alt="BUSTATRX" className="logos" />
+          <img src={bustatrxLogo} alt="BUSTATRX" className="blogos" />
           <span className="logo-text">BUSTATRX</span>
         </div>
         <nav className="footer-nav">

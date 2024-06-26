@@ -17,6 +17,7 @@ const MainContent = () => {
             visual form of a document or a typeface without relying on
             meaningful content.
           </p>
+          <img src="src/assets/socialGraph.png" className="socialGraph" />
         </div>
         <div className="feature-card">
           <h2>PROVABLY FAIR</h2>
@@ -30,6 +31,7 @@ const MainContent = () => {
             visual form of a document or a typeface without relying on
             meaningful content.
           </p>
+          <img src="src/assets/provablyGraph.png" className="provablyGraph" />
         </div>
         <div className="feature-card">
           <h2>BE THE BANKROLL</h2>
@@ -43,6 +45,7 @@ const MainContent = () => {
             visual form of a document or a typeface without relying on
             meaningful content.
           </p>
+          <img src="src/assets/bankrollGraph.png" className="bankrollGraph" />
         </div>
       </section>
 

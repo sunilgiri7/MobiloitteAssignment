@@ -11,13 +11,14 @@
   background-size: cover;
   background-position: center;
   height: 180px;
-  width: 95%; /* Adjusted to full width for responsiveness */
+  width: 96%; /* Adjusted to full width for responsiveness */
   max-width: 1150px; /* Maximum width to maintain card size */
   display: flex;
   align-items: center;
   padding: 0 20px;
   border-radius: 10px;
   margin-bottom: 20px;
+  margin-right: 17rem;
 }
 
 .winner-cup {
@@ -39,6 +40,9 @@
   width: 30px;
   height: auto;
   margin-bottom: 10px;
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-content p {
@@ -48,8 +52,8 @@
 
 .leaderboard-table {
   background-color: #1e1e1e;
-  border-radius: 10px;
   overflow: hidden;
+  border-radius: 5px;
 }
 
 .table-header {
@@ -64,8 +68,8 @@
 .table-row {
   display: flex;
   align-items: center;
-  padding: 15px 20px;
-  border-bottom: 1px solid #2a2a2a;
+  padding: 15px 30px;
+  border-bottom: 15px solid #2a2a2a;
 }
 
 .rank-badge {
