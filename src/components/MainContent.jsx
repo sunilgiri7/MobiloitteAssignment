@@ -12,25 +12,35 @@ const MainContent = () => {
             alt="Social & Real Time"
             className="feature-icon"
           />
-          <p>
+          <img src="src/assets/peopl.png" alt="People" className="peopl" />
+          <p className="socialText">
             Lorem ipsum is a placeholder text commonly used to demonstrate the
             visual form of a document or a typeface without relying on
             meaningful content.
           </p>
+          <img src="src/assets/line.png" className="line1" />
           <img src="src/assets/socialGraph.png" className="socialGraph" />
         </div>
         <div className="feature-card">
           <h2>PROVABLY FAIR</h2>
           <img
+            src="src/assets/tron_trx_3d_coin 3.png"
+            alt="Tron TRX 3D Coin"
+            className="profits"
+            style={{ marginBottom: "-60%" }} // Apply margin bottom here
+          />
+          <img
             src="src/assets/provably1.png"
             alt="Provably Fair"
             className="feature-icon"
+            style={{ marginBottom: "-15%" }}
           />
           <p>
             Lorem ipsum is a placeholder text commonly used to demonstrate the
             visual form of a document or a typeface without relying on
             meaningful content.
           </p>
+          <img src="src/assets/line1.png" className="line2" />
           <img src="src/assets/provablyGraph.png" className="provablyGraph" />
         </div>
         <div className="feature-card">
@@ -40,11 +50,13 @@ const MainContent = () => {
             alt="Be The Bankroll"
             className="feature-icon"
           />
-          <p>
+          <p className="bankrollText">
             Lorem ipsum is a placeholder text commonly used to demonstrate the
             visual form of a document or a typeface without relying on
             meaningful content.
           </p>
+          <img src="src/assets/dot.png" className="dot" />
+          <img src="src/assets/line2.png" className="line3" />
           <img src="src/assets/bankrollGraph.png" className="bankrollGraph" />
         </div>
       </section>

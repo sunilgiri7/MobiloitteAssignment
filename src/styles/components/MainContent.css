@@ -32,13 +32,57 @@
   left: 0;
   width: 80%;
   height: auto;
-  pointer-events: none; /* This ensures that the graph doesn't interfere with other interactions */
-  opacity: 1; /* Optional: Adjust opacity if you want a semi-transparent overlay */
+  pointer-events: none;
+  opacity: 1;
+}
+
+.line1,
+.line2,
+.line3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+  opacity: 1;
+}
+.line2 {
+  margin-bottom: 90px;
+}
+.line3 {
+  width: 77%;
+  margin-bottom: 220px;
+}
+.dot {
+  height: 3%;
+  width: 4%;
+  position: absolute;
+  margin-left: 70%;
+  margin-top: 34%;
+  opacity: 1;
+}
+.peopl {
+  margin-left: 36%;
+  margin-top: -120px;
+  width: 93px;
+  height: 60px;
+  gap: 0px;
+  opacity: 0px;
+}
+.profits {
+  width: 70px;
+  height: 70px;
+  margin-left: 110px;
+  /* margin-bottom: -42%; */
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .socialGraph {
   left: auto;
-  right: 1px; /* Create right margin by adjusting the right position */
+  right: 1px;
 }
 
 .provablyGraph {
@@ -52,20 +96,23 @@
 .feature-card h2 {
   font-size: 1.2rem;
   margin-top: 50px;
+  font: "Bebas Neue";
 }
 
 .feature-icon {
   width: 200px;
-  height: 200px;
+  /* height: 200px; */
   object-fit: contain;
-  margin: 1rem auto;
-  font-family: "Bebas Neue";
+  margin: 4rem auto;
 }
 
 .feature-card p {
   font-size: 0.9rem;
   color: #a0a0a0;
   font-family: "Roboto Condensed";
+}
+.bankrollText {
+  margin-top: -8%;
 }
 
 .info-section {
@@ -76,6 +123,8 @@
   ); /* Changed to 2 columns for the two groups */
   gap: 2rem;
   padding: 10px;
+  margin-top: 6%;
+  margin-bottom: 5%;
 }
 
 .column1,
