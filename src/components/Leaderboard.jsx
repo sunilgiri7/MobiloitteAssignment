@@ -26,6 +26,7 @@ const Leaderboard = () => {
               alt="Bustatrx Logo"
               className="bustatrx-logo"
             />
+            <h2 className="winner">Bustatrx</h2>
             <p>
               Lorem Ipsum Is A Placeholder Text Commonly Used To Demonstrate The
               Visual Form Of A Document Or A Typeface Without Relying On

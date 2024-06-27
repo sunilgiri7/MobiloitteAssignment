@@ -26,13 +26,18 @@
   height: auto;
   margin-right: 20px;
 }
+.winner {
+  margin-left: 21%;
+  margin-top: -35px;
+  position: absolute;
+}
 
 .card-content {
   color: white;
 }
 
 .card-content h2 {
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
@@ -40,9 +45,9 @@
   width: 30px;
   height: auto;
   margin-bottom: 10px;
-  display: block;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  margin-left: 18%;
+  margin-top: -40px;
 }
 
 .card-content p {
@@ -129,7 +134,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 2rem 0; /* Added padding for better spacing */
+  padding: 5rem 0; /* Added padding for better spacing */
 }
 
 .learnMore h1 {
